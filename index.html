@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <h1 class="heading">This is a ToDoList website</h1>
+        <!-- input area start -->
+        <div class="inputArea">
+            <input type="text" , placeholder="write your task description here" , id="title" class="inputTags">
+            <textarea name="description" id="description" class="inputTags" cols="30" rows="10"
+                placeholder="write your description here"></textarea>
+            <div class="buttonArea">
+                <button class="btn add">add</button>
+                <button class="btn clearAll" onclick="clearAll()">clear all</button>
+            </div>
+        </div>
+        <!-- input area end -->
+        <h1 class="heading">all tasks</h1>
+        <!-- first row  -->
+        <hr>
+        <div class="columnName">
+            <div class="sl_no">
+                <h1>Sl No.</h1>
+            </div>
+            <div class="task">
+                <h1 class="taskTitle">tasks</h1>
+            </div>
+            <div class="description">
+                <h1>description</h1>
+            </div>
+            <div class="delete">
+                <h1>Action</h1>
+            </div>
+        </div>
+        <hr>
+        <!-- /first row  -->
+        <div class="listContainer">
+            <!-- this is the area to update -->
+            <!-- <div class="aTask">
+                <div class="taskArea">
+                    <div class="sl_no taskBox">
+                        <h1>1</h1>
+                    </div>
+                    <div class="task taskBox">
+                        <h1 class="taskTitle">brush</h1>
+                    </div>
+                    <div class="description taskBox">
+                        <h1>keep oral health good</h1>
+                    </div>
+                    <div class="delete taskBox">
+                        <button class="btn">delete</button>
+                    </div>
+                </div>
+                <hr>
+            </div> -->
+            <!-- this is the area to update -->
+        </div>
+    </div>
+    <script src="app5.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    width: 1000px;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.heading {
+    text-align: center;
+    margin: 30px;
+}
+.inputArea {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.inputTags{
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
+.buttonArea{
+    margin: 10px 0px;
+}
+.btn{
+    margin: 0px 10px;
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    
+}
+.columnName, .taskArea{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    font-size: 15px;
+    background-color: rgb(240,240,240);
+}
+.taskArea{
+    background-color: white;
+    font-size: 10px;
+    height: 40px;
+}
+.taskBox{
+    display: flex;
+    align-items: center;
+}
